@@ -11,7 +11,7 @@
 
 ### Usage
 
-These are *==personal==* scripts so I do not guarantee they will work on your system or that they won't blow everything up, but I do try to make them as clean as possible so I don't mess any of my stuff up, so you should be safe.
+These are *personal* scripts so I do not guarantee they will work on your system or that they won't blow everything up, but I do try to make them as clean as possible so I don't mess any of my stuff up, so you should be safe.
 
 ### Current Scripts
 
