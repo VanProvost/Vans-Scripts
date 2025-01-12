@@ -3,7 +3,7 @@
 # C:\Users\Van\Documents\Powershell\Microsoft.Powershell_profile.ps1
 
 # Posh init with theme
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/uew.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/uew.omp.json" | Invoke-Expression # Requires oh-my-posh to be installed
 
 # Icons init
 Import-Module Terminal-Icons
@@ -17,7 +17,8 @@ Set-Alias -Name "clear" -Value "Clear-Host"
 Set-Alias -Name "clr" -Value "Clear-Host"
 Set-Alias -Name "pwd" -Value "Get-Location"
 Set-Alias -Name "cat" -Value "Get-Content"
-Set-Alias -Name "sudo" -Value "gsudo"
+Set-Alias -Name "sudo" -Value "gsudo" # Requires gsudo to be installed
+function up {Set-Location ..}
 
 # Alias list for quick access to common executables
 Set-Alias -Name "np" -Value "C:\Program Files\Notepad++\notepad++.exe"
