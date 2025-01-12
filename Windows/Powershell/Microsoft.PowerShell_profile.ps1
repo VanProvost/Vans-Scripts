@@ -1,3 +1,5 @@
+# Version 1.0
+
 # C:\Users\Van\Documents\Powershell\Microsoft.Powershell_profile.ps1
 
 # Posh init with theme
