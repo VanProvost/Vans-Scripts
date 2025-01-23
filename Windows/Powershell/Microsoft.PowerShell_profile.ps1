@@ -1,4 +1,10 @@
-# Version 1.1
+# Version 1.2
+
+# Change Notes:
+# Removed redudant aliases that are already set with Powershell 7
+# Removed some joke aliases
+# Removed the "up" and "..." alias as it was kind of useless
+# Set PSReadLine to be imported
 
 # C:\Users\Van\Documents\Powershell\Microsoft.Powershell_profile.ps1
 
@@ -7,21 +13,15 @@ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/uew.omp.json" | Invoke-Expr
 
 # Icons init
 Import-Module Terminal-Icons
+Import-Module PSReadLine
 
 # Aliases list for Unix Style
-Set-Alias -Name "ls" -Value "Get-ChildItem"
-Set-Alias -Name "rm" -Value "Remove-Item"
-Set-Alias -Name "mv" -Value "Move-Item"
-Set-Alias -Name "cp" -Value "Copy-Item" -Scope "Global" -Option "AllScope"      # Allscope option is needed to make powershell shutup about alias errors
-Set-Alias -Name "clear" -Value "Clear-Host"
 Set-Alias -Name "clr" -Value "Clear-Host"
 Set-Alias -Name "pwd" -Value "Get-Location"
 Set-Alias -Name "cat" -Value "Get-Content"
 Set-Alias -Name "sudo" -Value "gsudo" # Requires gsudo to be installed
 Set-Alias -Name "alma" -Value "almalinux9.exe"
 
-function up { Set-Location .. }
-function ... { Set-Location ..\.. }
 # Alias list for quick access to common executables
 Set-Alias -Name "np" -Value "C:\Program Files\Notepad++\notepad++.exe"
 
@@ -31,7 +31,6 @@ function onedrive { Set-Location "C:\Users\Van\OneDrive" }
 function desktop { Set-Location "C:\Users\Van\Desktop" }
 function downloads { Set-Location "C:\Users\Van\Downloads" }
 function documents { Set-Location "C:\Users\Van\Documents" }
-function omg { Write-Output "Oh My Gyat" }
 
 # Misc.
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete    # Tab completion
