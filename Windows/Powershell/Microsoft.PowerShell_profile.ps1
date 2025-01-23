@@ -1,4 +1,4 @@
-# Version 1.2
+# Version 1.2a
 
 # Change Notes:
 # Removed redudant aliases that are already set with Powershell 7
@@ -6,10 +6,13 @@
 # Removed the "up" and "..." alias as it was kind of useless
 # Set PSReadLine to be imported
 
+# 1.2a
+# Changed theme to match colour scheme
+
 # C:\Users\Van\Documents\Powershell\Microsoft.Powershell_profile.ps1
 
 # Posh init with theme
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/uew.omp.json" | Invoke-Expression # Requires oh-my-posh to be installed
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/catppuccin_mocha.omp.json" | Invoke-Expression # Requires oh-my-posh to be installed
 
 # Icons init
 Import-Module Terminal-Icons
