@@ -5,33 +5,47 @@
 - [Van's Scripts](#vans-scripts)
   - [Table of Contents](#table-of-contents)
     - [Usage](#usage)
-    - [Current Scripts](#current-scripts)
-      - [Linux](#linux)
-      - [Windows](#windows)
-        - [PowerShell](#powershell)
-        - [AutoHotkey](#autohotkey)
+    - [Windows Scripts](#windows-scripts)
+      - [PowerShell](#powershell)
+        - [SymLink Creator](#symlink-creator)
+          - [Installation](#installation)
+        - [Personal $PROFILE](#personal-profile)
+        - [Personal settings.json](#personal-settingsjson)
+      - [AutoHotkey](#autohotkey)
+    - [Linux Scripts](#linux-scripts)
+      - [Ubun2MediaServer](#ubun2mediaserver)
 
 ### Usage
 
 These are *personal* scripts so I do not guarantee they will work on your system or that they won't blow everything up, but I do try to make them as clean as possible so I don't mess any of my stuff up, so you should be safe.
 
-### Current Scripts
+### Windows Scripts
 
-This is a list of my current scripts for both Linux and Windows. for Linux scripts it'll say what distro(s) I tested them on, but they should all mostly work as long as the same pack manager is being used.
+#### PowerShell
 
-#### Linux
+##### SymLink Creator
 
-- Ubun2Media Server(insert link) - tested on Ubuntu
+This is a script used for creating symlinks via a lightweight GUI easily. I found that Windows is lacking in the creation of proper SymLinks so I made this script to make it a bit easier
 
-#### Windows
+###### Installation
 
-##### PowerShell
+Download the Symlink_Creator.ps1 file and run it, no extra dependencies required everything it needs is in the .ps1 file.
 
-- SymLink Creator
-- Personal $PROFILE
-- Personal settings.json
+##### Personal $PROFILE
 
-##### AutoHotkey
+This is just my personal $PROFILE with my aliases and modules, nothing special.
+
+##### Personal settings.json
+
+Contains my favourite themes and colour schemes.
+
+#### AutoHotkey
 
 - Copilot rebind to Flow Launcher script
 - Alt+Tab rebind to Win+Tab script
+
+### Linux Scripts
+
+#### Ubun2MediaServer
+
+WIP! Do not use this script yet it is still under development.
