@@ -1,4 +1,6 @@
+# Required Assemblies
 Add-Type -AssemblyName System.Windows.Forms
+Add-Type -AssemblyName System.Drawing
 
 # Create the form
 $form = New-Object System.Windows.Forms.Form
