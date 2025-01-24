@@ -8,6 +8,8 @@
     - [Current Scripts](#current-scripts)
       - [Linux](#linux)
       - [Windows](#windows)
+        - [PowerShell](#powershell)
+        - [AutoHotkey](#autohotkey)
 
 ### Usage
 
@@ -23,4 +25,13 @@ This is a list of my current scripts for both Linux and Windows. for Linux scrip
 
 #### Windows
 
-- Coming Soon..
+##### PowerShell
+
+- SymLink Creator
+- Personal $PROFILE
+- Personal settings.json
+
+##### AutoHotkey
+
+- Copilot rebind to Flow Launcher script
+- Alt+Tab rebind to Win+Tab script
