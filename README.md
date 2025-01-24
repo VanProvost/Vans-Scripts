@@ -6,12 +6,11 @@
   - [Table of Contents](#table-of-contents)
     - [Usage](#usage)
     - [Windows Scripts](#windows-scripts)
-      - [PowerShell](#powershell)
-        - [SymLink Creator](#symlink-creator)
-          - [Installation](#installation)
-        - [Personal $PROFILE](#personal-profile)
-        - [Personal settings.json](#personal-settingsjson)
-      - [AutoHotkey](#autohotkey)
+      - [SymLink Creator](#symlink-creator)
+        - [Installation](#installation)
+      - [Personal $PROFILE](#personal-profile)
+      - [Personal settings.json](#personal-settingsjson)
+      - [AutoHotkey Scripts](#autohotkey-scripts)
     - [Linux Scripts](#linux-scripts)
       - [Ubun2MediaServer](#ubun2mediaserver)
 
@@ -21,25 +20,23 @@ These are *personal* scripts so I do not guarantee they will work on your system
 
 ### Windows Scripts
 
-#### PowerShell
-
-##### SymLink Creator
+#### SymLink Creator
 
 This is a script used for creating symlinks via a lightweight GUI easily. I found that Windows is lacking in the creation of proper SymLinks so I made this script to make it a bit easier
 
-###### Installation
+##### Installation
 
 Download the Symlink_Creator.ps1 file and run it, no extra dependencies required everything it needs is in the .ps1 file.
 
-##### Personal $PROFILE
+#### Personal $PROFILE
 
 This is just my personal $PROFILE with my aliases and modules, nothing special.
 
-##### Personal settings.json
+#### Personal settings.json
 
 Contains my favourite themes and colour schemes.
 
-#### AutoHotkey
+#### AutoHotkey Scripts
 
 - Copilot rebind to Flow Launcher script
 - Alt+Tab rebind to Win+Tab script
