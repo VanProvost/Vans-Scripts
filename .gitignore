@@ -1,3 +1,4 @@
 
 .vscode/settings.json
 *.code-workspace
+.vscode/launch.json

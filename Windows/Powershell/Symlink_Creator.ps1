@@ -97,7 +97,7 @@ $createButton.Add_Click({
         try {
             # Attempt cmd method
             $cmdCommand = "cmd /c mklink `"$linkPath`" `"$targetPath`""
-            $cmdResult = Invoke-Expression $cmdCommand
+            Invoke-Expression $cmdCommand
             if ($LASTEXITCODE -eq 0) {
                 $statusLabel.Text = "Symlink created successfully using cmd!"
             } else {
