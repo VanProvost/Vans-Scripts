@@ -10,6 +10,7 @@
         - [Installation](#installation)
       - [Personal $PROFILE](#personal-profile)
       - [Personal settings.json](#personal-settingsjson)
+      - [Start MySQLWorkbench](#)
       - [AutoHotkey Scripts](#autohotkey-scripts)
     - [Linux Scripts](#linux-scripts)
       - [Ubun2MediaServer](#ubun2mediaserver)
