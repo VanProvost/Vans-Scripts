@@ -5,7 +5,3 @@
 
 ; Launch Windows Terminal when Windows key is pressed
 LWin::Run "wt.exe"
-
-+#f23::
-{
-}
